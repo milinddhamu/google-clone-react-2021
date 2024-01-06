@@ -1,6 +1,4 @@
 import {useState , useEffect} from 'react'
-import API_KEY from './Keys'
-
 const useGoogleSearch = (term) => {
 
     const [data, setData] = useState(null)
